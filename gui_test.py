@@ -32,13 +32,13 @@ def show_names():
 
 
 lang_1_label = Label(root, text='Language 1')
-lang_1_label.grid(column=2, row=1, pady=(20,5))
+lang_1_label.grid(column=2, row=1, pady=(20, 5))
 
 lang_2_label = Label(root, text='Language 2')
-lang_2_label.grid(column=3, row=1, pady=(20,5), padx=(0,20))
+lang_2_label.grid(column=3, row=1, pady=(20, 5), padx=(0, 20))
 
 gen_1_label = Label(root, text='Gender')
-gen_1_label.grid(column=5, row=1, pady=(20,5))
+gen_1_label.grid(column=5, row=1, pady=(20, 5))
 
 lang_select_1 = ttk.Combobox(root, value=lang_list, width=12)
 lang_select_1.current(0)
@@ -56,7 +56,7 @@ mix_button = Button(root, text="Get Mixed Names", command=show_names)
 mix_button.grid(column=3, row=3, pady=30)
 
 text = Text(root, wrap=WORD, width=60, height=15)
-text.grid(column=1, columnspan=6, row=4, padx=(6,5))
+text.grid(column=1, columnspan=6, row=4, padx=(6, 5))
 
 
 root.mainloop()
