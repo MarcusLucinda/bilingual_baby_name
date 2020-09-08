@@ -3,11 +3,27 @@ from tkinter import ttk
 from name_mixer import Mixer
 
 lang_list = [
-    'Italian',
-    'Portuguese',
-    'Spanish',
+    'Czech',
+    'Danish',
+    'Dutch',
+    'English',
+    'Estonian',
+    'Finnish',
     'French',
+    'German',
+    'Greek',
+    'Italian',
+    'Latvian',
+    'Lithuanian',
+    'Norwegian',
+    'Polish',
+    'Portuguese',
     'Romanian',
+    'Russian',
+    'Spanish',
+    'Swedish',
+    'Turkish',
+    'Ukrainian',
 ]
 
 gen_list = [
@@ -22,13 +38,13 @@ root.geometry('500x430')
 
 
 def show_names():
-    a = (f'{lang_select_1.get().lower()}_{gen_select.get().lower()[0]}')
-    b = (f'{lang_select_2.get().lower()}_{gen_select.get().lower()[0]}')
-    set_mix = Mixer(a, b)
-    names = (sorted(set_mix.name_combiner()))
-    text.delete(1.0, END)
-    text.insert(END, names)
-    text.see(END)
+        a = (f'{lang_select_1.get().lower()}_{gen_select.get().lower()[0]}')
+        b = (f'{lang_select_2.get().lower()}_{gen_select.get().lower()[0]}')
+        set_mix = Mixer(a, b)
+        names = (sorted(set_mix.name_combiner()))
+        text.delete(1.0, END)
+        text.insert(END, names)
+        text.see(END)
 
 
 lang_1_label = Label(root, text='Language 1')

@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 class Mixer:
     def __init__(self, lang1, lang2):
         self.lang1 = lang1
@@ -27,4 +28,3 @@ class Mixer:
                     names_list_lang.add(name.replace("\n", ""))
                 sav.append(names_list_lang)
         return sav[0] & sav[1]
-
