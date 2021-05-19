@@ -55,6 +55,15 @@ def name_combiner(self):
         return sav[0] & sav[1]
 ```
 
+So, calling;
+```python
+mix = Mixer("portuguese_f", "russian_f")
+print(mix.name_combiner())
+```
 
+Will result in
+```
+{'LENA', 'ISIDORA', 'OLGA', 'ALBINA', 'DIANA', 'EVA', 'ELVIRA', 'ALEX', 'MARTA', 'LARA', 'SABINA', 'DINA', 'ALEXANDRA', 'SOFIA', 'TATIANA', 'ANGELINA', 'MARIA', 'MARINA', 'VERA'}
+´´´
 
 
