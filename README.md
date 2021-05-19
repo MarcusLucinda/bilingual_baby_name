@@ -64,6 +64,4 @@ print(mix.name_combiner())
 Will result in
 ```
 {'LENA', 'ISIDORA', 'OLGA', 'ALBINA', 'DIANA', 'EVA', 'ELVIRA', 'ALEX', 'MARTA', 'LARA', 'SABINA', 'DINA', 'ALEXANDRA', 'SOFIA', 'TATIANA', 'ANGELINA', 'MARIA', 'MARINA', 'VERA'}
-´´´
-
-
+```
