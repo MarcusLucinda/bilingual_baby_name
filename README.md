@@ -8,7 +8,7 @@ It is waaay better and have far more functionalities
 
 ## Scrapping
 
-The names were collected from behindthename.com usind the BeautifulSoup library. The function named "name_indexer" receive the languange and gender of the desired names, than the script collect all names from the page, checking if there are multiples pages. The names are stores in a txt file.
+The names were collected from behindthename.com using the BeautifulSoup library. The function named "name_indexer" receive the language and gender of the desired names, then the script collect all names from the page, checking if there are multiples pages. The names are stored in a txt file.
 
 ```python
 def name_indexer(language, gender):
@@ -38,7 +38,7 @@ def name_indexer(language, gender):
 
 ## Names combining
 
-The class "Mixer" receive the two desired languages, then the funcion "name_combiner" will read the txt files, store the names in sets and return the ones that are common for both languages.
+The class "Mixer" receive the two desired languages, then the function "name_combiner" will read the txt files, store the names in sets and return the ones that are common for both languages.
 
 ```python
 def name_combiner(self):
